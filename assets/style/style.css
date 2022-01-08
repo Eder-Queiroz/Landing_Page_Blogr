@@ -562,14 +562,19 @@ section.terceiro_conteudo{
     }
 
     .conteudo1 .bg_conteudo1{
-        width: 480px;
-        height: 360px;
+        width: 620px;
+        height: 520px;
         margin: 40px 0;
         background-image: url(../images/illustration-editor-mobile.svg);
-        background-size: contain;
-        background-repeat: no-repeat;
+        background-size: cover;
     }
-    /* ?==finalConteudo1== */
+
+    .text_conteudo1{
+        width: 80%;
+        max-width: auto;
+    }
+
+    /* ?==Conteudo1== */
 
     /* ?segundoConteudo */
 
@@ -589,6 +594,7 @@ section.terceiro_conteudo{
 
     .segundo_conteudo .text_segundo_conteudo{
         max-width: 400px;
+        width: 80%;
     }
 
     .text_segundo_conteudo h2{
@@ -608,14 +614,15 @@ section.terceiro_conteudo{
     }
     
     .bg_terceiro_conteudo{
-        width: 480px;
-        height: 380px;
+        height: 460px;
         margin: 60px 0;
         background-image: url(../images/illustration-laptop-mobile.svg);
         position: static;
     }
 
     .text_terceiro_conteudo{
+        max-width: auto;
+        width: 80%;
         margin-left: 0;
         text-align: center;
     }
@@ -642,6 +649,18 @@ section.terceiro_conteudo{
         display: flex;
     }
     /* ?==finalMenuMobile== */
+
+    /* ?conteudo1 */
+
+    .conteudo1 .bg_conteudo1{
+        width: 380px;
+        height: 320px;
+        margin: 40px 0;
+        background-image: url(../images/illustration-editor-mobile.svg);
+        background-size: cover;
+    }
+
+    /* ?==Conteudo1== */
 
     /* ?SegundoConteudo */
 
@@ -675,6 +694,7 @@ section.terceiro_conteudo{
     .segundo_conteudo .text_segundo_conteudo{
         position: relative;
         top: -120px;
+        max-width: auto;
     }
 
     /* ?==finalSegundoConteudo== */
@@ -683,6 +703,13 @@ section.terceiro_conteudo{
 
     section.terceiro_conteudo{
         margin: 720px 0;
+    }
+
+    .bg_terceiro_conteudo{
+        width: 380px;
+        height: 320px;
+        position: relative;
+        left: -25px;
     }
 
     /* ?==finalTerceiroConteudo== */
