@@ -5,22 +5,25 @@ const connectMobile = document.getElementById('connect_mobile');
 
 function toggleMenu(){
     const navMobile = document.getElementById('menu');
-    navMobile.classList.toggle('active')
+    navMobile.classList.toggle('active');
 }
 
 function productMobileClick(){
-    const mobile1 = document.getElementById('product_mobile');
-    mobile1.classList.toggle('active_product');
+    const product = document.getElementById('product_mobile');
+
+    product.classList.toggle('active_menu_mobile');
 }
 
 function companyMobileClick(){
-    const mobile2 = document.getElementById('company_mobile');
-    mobile2.classList.toggle('active_product');
+    const company = document.getElementById('company_mobile');
+    
+    company.classList.toggle('active_menu_mobile');
 }
 
 function connectMobileClick(){
-    const mobile3 = document.getElementById('connect_mobile');
-    mobile3.classList.toggle('active_product');
+    const connect = document.getElementById('connect_mobile');
+    
+    connect.classList.toggle('active_menu_mobile');
 }
 
 hamburguerMobile.addEventListener('click', toggleMenu);
